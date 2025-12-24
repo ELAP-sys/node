@@ -26,9 +26,9 @@ const todos = [
 
 
 app.post('/test', (req, res) => {
-    res.setHeader("Content-Type", "text/Plain")
-    const { usr, pass } = req.body
+    res.setHeader("Content-Type", "text/plain")
     console.log(req.body)
+    const { usr, pass } = req.body
     if (usr === "parsaamir" && pass === "2000")
         res.status(200).send(`profile: ${todos}`)
     else if (usr === "parsaamir")
