@@ -1,19 +1,19 @@
 {
-  "name": "myapp",
+  "name": "nodenew",
   "version": "1.0.0",
   "description": "",
   "license": "ISC",
   "author": "eliot",
   "type": "commonjs",
-  "main": "myApp.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon myApp.js"
-  },
-  "devDependencies": {
-    "nodemon": "^3.1.11"
+    "dev": "nodemon index.js"
   },
   "dependencies": {
     "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
   }
 }
