@@ -1,7 +1,15 @@
 {
-  "name": "nodenew",
+  "name": "index",
   "version": "1.0.0",
   "description": "",
+  "homepage": "https://github.com/ELAP-sys/node#readme",
+  "bugs": {
+    "url": "https://github.com/ELAP-sys/node/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ELAP-sys/node.git"
+  },
   "license": "ISC",
   "author": "eliot",
   "type": "commonjs",
